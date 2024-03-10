@@ -1,0 +1,9 @@
+@each $color-name, $color in $colorMaps
+   .text-#{$color-name}
+         color: $color
+   
+   .background-#{$color-name}
+      background-color: $color
+   
+   .border-#{$color-name}
+      border: solid 1px $color

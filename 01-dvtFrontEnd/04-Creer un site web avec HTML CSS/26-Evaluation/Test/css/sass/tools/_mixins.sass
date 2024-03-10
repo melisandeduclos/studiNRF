@@ -1,0 +1,9 @@
+@mixin size($width, $height: auto)
+    width: $width
+    height: $height
+
+@mixin min-break-point($size)
+    @media screen and (min-width: $size)
+         /* réglages à partir de $size et + : taille police un peu plus grande
+        font-size: 1.1rem
+        @content

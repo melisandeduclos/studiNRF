@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*Lib /Element de Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Variables / Tools */
+/*Héritage de style*/
+.btn.delete, .btn.close, .btn.confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* General */
+.btn.confirm {
+  margin-top: 5px;
+  padding: 10px 30px;
+  border-radius: 0.5vw;
+  border: solid 2px;
+  background: #78fca0;
+  border-color: #037224;
+  color: #037224;
+}
+.btn.close {
+  margin-top: 5px;
+  padding: 10px 30px;
+  border-radius: 0.5vw;
+  border: solid 2px;
+  background: #78ecfc;
+  border-color: #036572;
+  color: #eee;
+}
+.btn.delete {
+  margin-top: 5px;
+  padding: 10px 30px;
+  border-radius: 0.5vw;
+  border: solid 2px;
+  background: #fc7878;
+  border-color: #720303;
+  color: #720303;
+}
+
+/* Layout */
+/* Components *//*# sourceMappingURL=style.css.map */

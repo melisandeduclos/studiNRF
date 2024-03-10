@@ -1,0 +1,11 @@
+.btn {
+   &.confirm {
+      @include myButton($confirm);
+   }
+   &.close {
+      @include myButton($close);
+   }
+   &.delete {
+      @include myButton($delete);
+   }
+}

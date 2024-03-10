@@ -1,0 +1,14 @@
+@mixin myButton ($color)
+   @extend %flex-center
+   margin-top: 5px
+   padding: 10px 30px
+   border-radius: 0.5vw
+   border: solid 2px
+   background: $color
+   border-color: darken($color, 50%)
+   @if $color == $close
+      color: #eee
+      
+   @else
+      color: darken($color, 50%)
+      

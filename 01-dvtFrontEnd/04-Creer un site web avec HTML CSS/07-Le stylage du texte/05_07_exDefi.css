@@ -1,0 +1,42 @@
+:root{
+    /* FONT */
+    --font-mainTitle: 'Great Vibes', cursive;
+    --font-sndTitle: 'Montserrat', sans-serif;
+    --font-text: 'Raleway', sans-serif;
+}
+
+.flux{
+    width: 100%;
+    max-width: 800px;
+
+    /* centrer un élément dans la page */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-section{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.main-section__title{
+    font-family: var(--font-mainTitle);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.main-section__subtitle{
+    font-family: var(--font-sndTitle);
+    font-size: 18px;
+}
+
+.main-section__container{
+    font-family: var(--font-text);
+}
+
+.container__image{
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
