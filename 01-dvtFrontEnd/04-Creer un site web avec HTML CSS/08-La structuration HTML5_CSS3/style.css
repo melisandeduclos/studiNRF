@@ -1,0 +1,56 @@
+:root{
+    /* FONT */
+    --font-text: 'Lato', sans-serif;
+}
+body {
+    font-family: var(--font-text);
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: lightgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav li {
+    display: inline;
+    margin:10px;
+}
+
+aside {
+    background-color: #b0b0ff;
+    vertical-align: top;
+    width: 25% ;
+}
+
+main {
+    border-left: solid 1px lightgrey;
+    width:70%;
+}
+
+article {
+    padding: 20px;
+}
+
+
+section {
+    padding: 10px
+}
+
+footer {
+    text-align: center;
+    background-color: #000634;
+    color: white;
+    margin-top: 20px;
+    padding:10px;
+}
+
+.inline{
+    display: inline-block;
+    height: 500px;
+}

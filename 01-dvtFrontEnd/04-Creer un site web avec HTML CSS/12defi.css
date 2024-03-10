@@ -1,0 +1,102 @@
+body {
+    font-family: Calibri, serif;
+    color: aliceblue;
+}
+
+form {
+    background-image: url("https://wallpapertag.com/wallpaper/full/0/4/a/526858-free-purple-background-wallpapers-2560x1600-for-pc.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    max-width: 800px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+form label, p {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label.inline-label {
+    display: inline-block;
+}
+
+fieldset {
+    border: 1px solid lightgray;
+    background-color: rgba(225, 233, 255, 0.25);
+    width: 89%;
+}
+
+legend {
+    font-style: italic;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.container-image{
+    width: 200px;
+    text-align: center;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+}
+
+.container-form{
+    /* background-color: blue; */
+    width: 600px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form input{
+    width: 90%;
+}
+
+.cpville{
+    display: flex;
+    justify-content: space-between;
+    object-fit: fill;
+    width: 555px;
+}
+
+.cpville_cp input{
+    width: 100px;
+    margin-right: 15px;
+}
+
+.cpville_ville input{
+    width: 400px;
+}
+
+span{
+    color: red;
+}
+
+form input, form select, form textarea {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+form input[type="radio"],
+form input[type="checkbox"],
+form input[type="submit"] {
+    width: auto;
+}
+
+button[type=submit], button[type=reset] {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

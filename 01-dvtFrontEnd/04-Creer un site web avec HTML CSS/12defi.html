@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♟  Club de jeux de société</title>
+    <link rel="stylesheet" href="12defi.css">
+</head>
+<body>
+    <form action="inscription.php" method="post">
+        <div class="container-image">
+            <label for="image">Photo de profil <span>*</span></label>
+            <input class="image" type="image" src="https://picsum.photos/150/150.jpg" alt="Submit" required>
+        </div>
+
+
+        <div class="container-form">
+            <label for="mail">Votre adresse mail <span>*</span></label>
+            <input type="email" name="mail" id="mail"  placeholder="prenom.nom@example.com" required>
+
+            <label for="password">Mot de passe <span>*</span></label>
+            <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe" required>
+
+
+            <div class="inline-label">
+                <p>Civilité</p>
+                <input type="radio" name="mr" id="mr">
+                <label class="inline-label" for="mr">Monsieur</label>
+                <input type="radio" name="mrs" id="mrs">
+                <label class="inline-label" for="mrs">Madame</label>
+            </div>
+            <label for="nom">Nom <span>*</span></label>
+            <input type="text" name="nom" id="nom" placeholder="Saisissez votre nom" required>
+
+            <label for="prenom">Prénom <span>*</span></label>
+            <input type="text" name="prenom" id="prenom" placeholder="Saisissez votre prénom" required>
+
+            <label for="datenaissance">Date de naissance</label>
+            <input type="date" name="datenaissance" id="datenaissance" placeholder="jj/mm/aaaa">
+
+            <label for="telnumber">Numéro de téléphone</label>
+            <input type="tel" name="telnumber" id="telnumber" placeholder="+33 6 ou +33 7 XX XX XX XX">
+
+            <div class="cpville">
+                <div class="cpville_cp">
+                    <label for="cp">Code postal</label>
+                    <input type="text" name="cp" id="cp" pattern="[0-9]{5}" placeholder="5 chiffres compasant le CP">
+                </div>
+
+                <div class="cpville_ville">
+                    <label for="ville">Ville</label>
+                    <input type="text" name="ville" id="ville" placeholder="Saisisiez le nom de votre ville">
+                </div>
+            </div>
+
+            <label for="adresse">Adresse</label>
+            <input type="text" name="adresse" id="adresse" placeholder="Renseignez le nom de votre rue">
+            <fieldset>
+                <label for="jeux">Liste de jeux</label>
+                <select name="jeux" id="jeux" multiple>
+                    <option value="default">Choisissez un ou plusieurs jeu(x)</option>
+                    <option value="tarot">Tarot</option>
+                    <option value="echecs">Échecs</option>
+                    <option value="dames">Dames</option>
+                    <option value="bataille">Bataille navale</option>
+                    <option value="chevaux">Petits-Chevaux</option>
+                    <option value="poker">Poker</option>
+                </select>
+
+                <p>Choississez votre parrain</p>
+                <input type="radio" name="laure" id="laure">
+                <label class="inline-label" for="laure">Laure</label>
+                <input type="radio" name="adam" id="adam">
+                <label class="inline-label" for="adam">Adam</label>
+                <input type="radio" name="chloe" id="chloe">
+                <label class="inline-label" for="chloe">Chloé</label>
+                <input type="radio" name="jules" id="jules">
+                <label class="inline-label" for="jules">Jules</label>
+                <input type="radio" name="camille" id="camille">
+                <label class="inline-label" for="camille">Camille</label>
+                <input type="radio" name="raphael" id="raphael">
+                <label class="inline-label" for="raphael">Raphael</label>
+    
+                <label class="inline-label" for="cgu">Acceptez-vous les <a href="#"> conditions générales d'utilisation</a></label>
+                <input type="checkbox" name="cgu" id="cgu">
+            </fieldset>
+            
+
+            <button type="reset">Efffacer les données du formulaire</button>
+            <button type="submit">Envoyez le formulaire</button>
+        </div>
+
+
+
+
+    </form>
+</body>
+</html>

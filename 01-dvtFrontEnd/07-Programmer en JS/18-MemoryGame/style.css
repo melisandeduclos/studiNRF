@@ -1,0 +1,63 @@
+body{
+   font-family: Tahoma, Geneva, sans-serif;
+   text-align: center;
+   margin: auto;
+   background-color: #edde9c;
+}
+
+h1 {
+   margin-inline: 40vw;
+   border-radius: 10px;
+   padding: 1vw;
+   color: #bc2e1e;
+   background: #edde9c;
+   text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+}
+
+#game-board{
+   display: grid;
+   grid-template-columns: repeat(4, 100px);
+   grid-template-rows: repeat(4,100px);
+   grid-gap: 10px;
+   justify-content: center;
+   margin: 30px auto;
+}
+
+/* Masquer les cartes  */
+.card{
+   background-color: #ccc;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.card .card-content{
+   opacity: 0;
+   border-radius: 5px;
+}
+
+/*Retournement de la carte*/
+.card.flip .card-content{
+   opacity: 1;
+}
+
+/*Vérification des correspondances*/
+.card.matched {
+   border: solid 4px green;
+   box-sizing: border-box; 
+   cursor: default;
+}
+.card .card-content {
+   max-width: 100%;
+}
+
+.card.flip{
+   transform: rotateY(180deg);
+}
+.card .card-content {
+   transition: all 0.3s;
+}
+.card {
+   /*animation*/
+   transform: rotateY(0deg);
+   transition: all 0.5s;
+}

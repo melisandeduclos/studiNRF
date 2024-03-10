@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chart Js Project</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+The content of the document......
+<canvas id="myChart"></canvas>
+
+<script>
+let ctx = document.querySelector("#myChart");
+          new Chart(ctx, {
+            type: "pie",
+            data: {
+                labels: ['Paris', 'New-York', 'Madrid', 'Moscou', 'Berlin', 'Auckland'],
+                datasets: [{
+                  label: ' Nombre d’habitants',
+                  data: [12, 19, 7, 5, 2, 3],
+                  backgroundColor: ['pink', 'blue', 'yellow', 'green', 'purple', 'orange']
+              }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'Mon premier graphique avec Chart Js'
+                },
+                legend: {
+                    position: 'bottom'
+                }
+
+            }
+        });
+</script>
+
+</body>
+
+</html>

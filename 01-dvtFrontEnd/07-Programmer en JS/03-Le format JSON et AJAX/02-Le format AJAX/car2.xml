@@ -1,0 +1,17 @@
+<LIST>
+   <CAR>
+      <NAME>Renault</NAME>
+   </CAR>
+   <CAR>
+      <NAME>Peugeot</NAME>
+   </CAR>
+   <CAR>
+      <NAME>Citroen</NAME>
+   </CAR>
+   <CAR>     <NAME>Ferrari</NAME>
+      <NAME>BMW</NAME>
+   </CAR>
+   <CAR> 
+      <NAME>Mercedes</NAME>
+   </CAR>
+</LIST>

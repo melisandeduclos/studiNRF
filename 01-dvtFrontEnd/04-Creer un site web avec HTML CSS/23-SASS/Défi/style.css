@@ -1,0 +1,35 @@
+.text-info {
+  color: rgb(40, 40, 112);
+}
+
+.background-info {
+  background-color: rgb(40, 40, 112);
+}
+
+.border-info {
+  border: solid 1px rgb(40, 40, 112);
+}
+
+.text-success {
+  color: rgb(45, 94, 45);
+}
+
+.background-success {
+  background-color: rgb(45, 94, 45);
+}
+
+.border-success {
+  border: solid 1px rgb(45, 94, 45);
+}
+
+.text-error {
+  color: rgb(248, 115, 115);
+}
+
+.background-error {
+  background-color: rgb(248, 115, 115);
+}
+
+.border-error {
+  border: solid 1px rgb(248, 115, 115);
+}/*# sourceMappingURL=style.css.map */

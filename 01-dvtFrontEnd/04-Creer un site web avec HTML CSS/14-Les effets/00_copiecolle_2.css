@@ -1,0 +1,40 @@
+.box {
+   box-shadow: 4px 6px 20px  hsla(0, 0%, 0%, 0.8);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 150px;
+ height: 30px;
+ background: rgb(255,255,163);
+ color: black;
+ margin: 20px;
+ } 
+ .linear{
+   /*par défaut*/
+   animation: 5s linear 0s infinite alternate goRight;
+ }
+ .ease-in{
+   animation: 5s ease-in 0s infinite alternate goRight;
+ }
+ .ease-out{
+   animation: 5s ease-out 0s infinite alternate goRight;
+ }
+ .ease-in-out{
+   animation: 5s ease-in-out 0s infinite alternate goRight;
+ }
+ .ease{
+   animation: 5s ease 0s infinite alternate goRight;
+ }
+ .custom{
+   animation: 5s cubic-bezier(0.19, 0.75, 0.43, 0.95) 0s infinite alternate goRight;
+ }
+ @keyframes goRight {
+   0%{
+     transform: translateX(0);
+   }
+   100%{
+     transform: translateX(1000px);
+     background: rgb(255, 204, 163);
+   }
+ }
+ 
