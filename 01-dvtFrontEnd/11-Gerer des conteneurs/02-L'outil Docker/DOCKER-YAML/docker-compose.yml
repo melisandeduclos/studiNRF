@@ -1,0 +1,16 @@
+version: '3.9'  # Version de Docker Compose à utiliser
+
+services:  # Définition des services (conteneurs)
+
+  streamlit:  # Nom du service
+    image: streamlit:latest  # Nom de l'image du conteneur
+    ports:
+      - 8501:8501  # Mappage du port 80 du conteneur sur le port 80 de l'hôte
+    volumes:
+      - donnees:/app/data  # Montage du volume donnees dans le répertoire '/app/data' du conteneur
+    command: streamlit run /app/streamlit_app.py
+
+  volumes:
+    donnees:
+      # driver: local # (pour le créer sur la machine, et mettre external: false)
+      external: true 

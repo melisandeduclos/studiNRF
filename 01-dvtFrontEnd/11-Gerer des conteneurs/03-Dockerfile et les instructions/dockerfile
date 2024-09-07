@@ -1,0 +1,15 @@
+# commencer par une image de base
+# qui permet de configurer facilement un GPU
+# lorsqu’il est de type nvidia
+FROM nvidia/cuda:10.2-devel-ubuntu18.04 as intermediate
+# upd
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive \
+&& apt-get install git \
+# git clone yolov5
+&& git clone https://github.com/ultralytics/yolov5 \
+&& cd yolov5 \
+&& pip install -qr ./requirements.txt \
+&& pip install jupyter
+# run jupyter notebook
+WORKDIR /yolov5
+CMD ["jupyter notebook -i 0.0.0.0 --allow-root --port=8888"]
