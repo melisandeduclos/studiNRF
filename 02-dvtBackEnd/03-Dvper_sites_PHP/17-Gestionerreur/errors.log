@@ -1,0 +1,4 @@
+[03-Nov-2024 15:28:55 UTC] PHP Warning:  require(foo.php): failed to open stream: No such file or directory in C:\Users\NadeeMils\OneDrive\studiNRF\02-dvtBackEnd\03-Dvper_sites_PHP\17-Gestionerreur\index.php on line 3
+[03-Nov-2024 15:28:55 UTC] PHP Fatal error:  require(): Failed opening required 'foo.php' (include_path='.;C:\php\pear') in C:\Users\NadeeMils\OneDrive\studiNRF\02-dvtBackEnd\03-Dvper_sites_PHP\17-Gestionerreur\index.php on line 3
+[03-Nov-2024 15:32:05 UTC] PHP Warning:  require(foo.php): failed to open stream: No such file or directory in C:\Users\NadeeMils\OneDrive\studiNRF\02-dvtBackEnd\03-Dvper_sites_PHP\17-Gestionerreur\index.php on line 3
+[03-Nov-2024 15:32:05 UTC] PHP Fatal error:  require(): Failed opening required 'foo.php' (include_path='.;C:\php\pear') in C:\Users\NadeeMils\OneDrive\studiNRF\02-dvtBackEnd\03-Dvper_sites_PHP\17-Gestionerreur\index.php on line 3

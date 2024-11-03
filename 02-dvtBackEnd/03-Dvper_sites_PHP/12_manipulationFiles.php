@@ -22,4 +22,5 @@ while(!feof($file_update)) {
     echo "<br>".$line;
 }
 fclose($file_update);
+
 ?>
