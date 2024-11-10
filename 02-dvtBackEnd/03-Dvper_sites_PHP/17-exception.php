@@ -26,4 +26,4 @@ try{
 } catch(Exception $e){
     echo "Impossible de calculer l'inverse du carré de la distance entre les deux planètes." . PHP_EOL;
 }
-
+restore_exception_handler();

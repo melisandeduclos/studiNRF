@@ -1,5 +1,6 @@
 <?php
 
+
 set_error_handler(function($errno, $errstr,$errfile, $errline){
     //Personnaliser le rapport d'erreur
     echo "Génération du rapport d'erreur" . PHP_EOL;
