@@ -1,0 +1,8 @@
+[2024-11-17 14:50:07] Erreur PDO : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'group FROM users
+   JOIN `groups` ON `groups`.id = users.group_id
+   WHERE use' à la ligne 1
+[2024-11-17 15:15:14] Erreur PDO : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '-10, 10' à la ligne 4
+[2024-11-17 15:16:09] Erreur PDO : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '-10, 10
+   WHERE users.email LIKE '%.com'' à la ligne 3
+[2024-11-17 15:42:13] Erreur PDO : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '-2, 2' à la ligne 4
+[2024-11-17 16:08:26] Erreur PDO : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '*) AS totalUsers FROM users' à la ligne 1

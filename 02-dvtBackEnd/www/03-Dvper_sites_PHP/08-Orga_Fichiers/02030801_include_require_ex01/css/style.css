@@ -1,0 +1,80 @@
+/* camelCase writing */
+/* https://www.allacronyms.com/header/abbreviated */
+
+/* Legend */
+    /* background : bkgd */
+    /* body : bdy */
+    /* button : btn */
+    /* cover : cvr */
+    /* header : hdr */
+    /* offers : ofrs */
+    /* services : srvcs */
+    /* testimonies : tstmns */
+    /* primary : prmry */
+    /* secondary : scndry */
+    /* title h1 to hn : hn */
+
+/*
+********** **********
+        Root
+********** **********
+*/
+:root{
+
+    /* Color chart */
+        /* Header */
+        --color-hdrBkgd: rgba(255, 255, 255, 0.75);
+        --color-hdrBtnBkgdPrmry : white;
+        --color-hdrBtnTxtPrmry: #2e94fa;
+        --color-hdrBtnBkgdScndry: #2e94fa;
+        --color-hdrBtnTxtScndry: #f4f4f4;
+        /* Main */
+        --color-titleStrong : #22e39e;
+        /* Cover */
+        --color-cvrBkgd: #86e8b5;
+        --color-cvrBkgdMobile: white;
+        /* Offers */
+        --color-ofrsTitle : #2e94fa;
+        --color-ofrsBkgdIntroduction : #fff3fc;
+        --color-ofrsTxtIntroduction: #e356b2;
+        --color-ofrsTxtIntroductionLink : dodgerblue;
+        --color-ofrsBkgdContainerTitle : #ebf5ff;
+        --color-ofrsTxtContainerTitle :#176ec4;
+        --color-ofrsBkgdShadowCardOffer: #f4f4f4;
+        /* Services */
+        --color-srvcsTitle : #ff7045;
+        /* Testimonies */
+        --color-tstmnsAvatar : #22e39e;
+        --color-tstmnsListBkgd : white;
+        --color-tstmnsListKeyPoints : rgb(167, 167, 167);
+    /* Font */
+        /* Body */
+        --font-bdy : 'Raleway', sans-serif;
+        /* --font-bdy : Arial, sans-serif; */
+        /* Header */
+        --font-hdr: Verdana, sans-serif;
+        --font-hdrBtn : 'Raleway', sans-serif;
+        /* Main */
+        --font-mainTitle : 'Passion One', cursive;
+        --font-mainPrgph :  'Poppins', sans-serif;
+    
+    }
+    
+    * {
+        background-color: rgb(222, 255, 238);
+        font-family:var(--font-bdy);
+        font-weight: 300;
+        font-size: 15px;
+    }
+    
+    h1 { font-family: var(--font-mainTitle);
+        text-align: center;
+        font-size: 100px;
+        margin: 10px 0px 10px 0px;
+
+    }
+
+    a {
+        margin-top: 100px;
+    }
+    

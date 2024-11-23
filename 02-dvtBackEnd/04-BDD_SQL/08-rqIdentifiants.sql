@@ -1,0 +1,17 @@
+CREATE TABLE users
+(
+    login VARCHAR(20) NOT NULL UNIQUE
+);
+
+CREATE TABLE users
+(
+    email VARCHAR(254) NOT NULL UNIQUE,
+    username VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE users
+(
+    email VARCHAR(254) NOT NULL UNIQUE,
+    username VARCHAR(20) NOT NULL,
+    password VARCHAR(60) NOT NULL
+);
